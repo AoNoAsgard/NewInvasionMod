@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "nim",
+  "version": "${version}",
+  "name": "Nim",
+  "description": "",
+  "authors": [
+    "AoNoAsgard",
+    "Fuwuffy"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nim/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "it.aonoasgard.nim.Nim"
+    ]
+  },
+  "mixins": [
+    "NIM.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

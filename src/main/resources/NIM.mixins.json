@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "it.aonoasgard.nim.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "NimMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
