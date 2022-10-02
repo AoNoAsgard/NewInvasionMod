@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "": { "model": "nim:block/example_block" }
+  }
+}
+
